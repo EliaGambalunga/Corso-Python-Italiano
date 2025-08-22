@@ -12,5 +12,6 @@ def esempio_indentazione():
         print("Questo è un blocco di codice indentato")
     else:
         print("Questo non verrà eseguito")
-#sono distribuiti su più colonne, inffatti la colonna più vicina al margine sinistro è la colonna 0 cioè quella che contiene le altre
-#se non è eseguito correttamente un comando potrebe non legarsi ad un'altro e non funzionare correttamente
+#sono distribuiti su più colonne, 
+# infatti la colonna più vicina al margine sinistro è la colonna 0 cioè quella che contiene le altre
+#se non è eseguito correttamente un comando potrebe non funzionare correttamente
