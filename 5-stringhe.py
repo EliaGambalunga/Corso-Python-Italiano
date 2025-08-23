@@ -18,3 +18,11 @@ print(x.upper()) #manda a schermo la stringa tutta in maiuscolo
 print(x.replace("ciao", "hello")) #manda a schermo la stringa sostituendo ciao con hello
 print(x.split(" ")) #manda a schermo la stringa trasformandola in una lista, ogni volta che trova uno spazio crea un elemento nuovo) # il risultato sarà che ogni volta che nella stirnga si trova una lettera c,
 #questa viene tolta e viene creato un nuovo elemento nella lista
+prova = "ciao sono luca e sono nato il {}"
+x = 2008
+print (prova.format(x)) #manda a schermo la stringa sostituendo le {} con il valore messo nella funzione format
+#se mettevo piu di un valore nella funzione format separati da virgole allora devo mettere più coppie di {} nella stringa
+#posso anche specificare in quale coppia di {} mettere ogni valore usando gli indici, esempio {0}, {1} ecc
+prova = "ciao sono Luca e sono figo" #se voglio mettere delle virgolette doppie in una stringa racchiusa da virgolette 
+#doppie devo mettere il backslash prima delle virgolette doppie
+prova = "ciao sono Luca e sono \"figo\""
